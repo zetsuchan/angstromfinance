@@ -1,11 +1,11 @@
 pragma solidity =0.5.16;
 
-import './interfaces/IAngstromPair.sol';
+import './IAngstromPair.sol';
 import './UniswapV2ERC20.sol';
-import './libraries/Math.sol';
-import './interfaces/IERC20.sol';
-import './interfaces/IAngstromFactory.sol';
-import './interfaces/IUniswapV2Callee.sol';
+import './Math.sol';
+import './IERC20.sol';
+import './IAngstromFactory.sol';
+import './IUniswapV2Callee.sol';
 
 contract AngstromPair is IAngstromPair, UniswapV2ERC20 {
   using SafeMath  for uint;
