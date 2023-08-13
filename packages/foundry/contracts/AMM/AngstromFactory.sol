@@ -1,6 +1,6 @@
 pragma solidity =0.5.16;
 
-import './interfaces/IAngstromFactory.sol';
+import './IAngstromFactory.sol';
 import './AngstromPair.sol';
 
 contract AngstromFactory is IAngstromFactory {
